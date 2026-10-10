@@ -49,7 +49,8 @@ public class Estudiante {
 		this.apellido = apellido;
 	}
 
-	// Sobreescribir toString
+	// toString (@Override): define cómo se imprime el objeto en lugar de la
+	// dirección de memoriaS
 	@Override
 	public String toString() {
 		return "Estudiante [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + "]";
